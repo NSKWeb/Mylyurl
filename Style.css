@@ -1,0 +1,28 @@
+/*
+Theme Name: Myly URL Shortener
+Theme URI: https://example.com/myly
+Author: Developer
+Author URI: https://example.com
+Description: A minimalist self-hosted URL shortener for WordPress.
+Version: 1.1
+License: GNU General Public License v2 or later
+Text Domain: myly
+*/
+
+/* (CSS remains the same, no class name changes needed) */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc;
+    margin: 0;
+    padding: 0;
+    color: #1f2937;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* ... rest of CSS unchanged ... */
